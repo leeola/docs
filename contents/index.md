@@ -1,22 +1,23 @@
 ---
-title: Koding Unofficial Documentation
+title: Koding Community Docs
 template: page.jade
 ---
 
 
-The Koding Unofficial Documentation is an ongoing effort to create a series
+The Koding Community Documentation is an ongoing effort to create a series
 of guides that, when combined with the
-[Koding Unofficial Wiki](https://github.com/leeolayvar/koding-unofficial/wiki),
+[Koding Community Wiki](https://github.com/koding/docs/wiki),
 provide a well rounded guide to making the best use of
 [Koding](https://koding.com) as possible.
 If you have any requests, issues, or something doesn’t quite make sense
 then please
-[submit an issue](https://github.com/leeolayvar/koding-unofficial/issues/new)
+[submit an issue](https://github.com/koding/docs/issues/new)
 and we can help the Koding community grow, *together*. :)
 
-**Disclaimer**: I am a Koding user like any other, so i make no claims to know
-any fancy tricks or in depth Linux solutions for your life. I am simply trying to
-help in a place i think i can.
+
+**Disclaimer**: We are Koding users like any other, so there are no claims to
+know any fancy tricks or in depth Linux solutions for your life. We are
+simply trying to help in a place we think we can.
 
 
 
@@ -46,5 +47,5 @@ help in a place i think i can.
 
 
 <a name="credits" class="anchor"></a>
-## Credits
+## Contributors
 

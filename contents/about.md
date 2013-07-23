@@ -12,4 +12,4 @@ or if something just doesn't quite make sense to you, please
 up to date, and help any Koders using these guides after you. Thanks!
 
 
-[1]: https://github.com/leeolayvar/koding-unofficial/issues/new
+[1]: https://github.com/koding/docs/issues/new
