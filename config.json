@@ -3,7 +3,7 @@
   "locals": {
     "baseUrl": "/docs/",
     "url": "http://koding.github.io/docs/",
-    "name": "Koding Unofficial Documentation",
+    "name": "Koding Community Docs",
     "owner": "leeolayvar",
     "description": "Community Documentation for Koding.com"
   },
