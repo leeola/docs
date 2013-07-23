@@ -1,23 +1,23 @@
 
 
-# Koding Unofficial: Community Guides & Wiki
+# Koding Docs: Community Guides & Wiki
 
-- [Guides](https://leeolayvar.github.io/koding-unofficial):
+- [Guides](https://koding.github.io/docs):
   Guide & Video paired Koding documentation
-- [Wiki](https://github.com/leeolayvar/koding-unofficial/wiki):
+- [Wiki](https://github.com/koding/docs/wiki):
   General Community Wiki
 
 
 
 ## Description
 
-The Unofficial Koding Docs is a community grown documentation project centered
+The Koding Community Docs are a community grown documentation project centered
 around [Koding](https://koding.com), an Online Development Environment that
 aims to bring free development and computing to all.
 
 This documentation effort is in two parts.
-[Guides](http://leeolayvar.github.io/koding-unofficial) and
-[Wiki](https://github.com/leeolayvar/koding-unofficial/wiki). The goal of
+[Guides](http://koding.github.io/docs) and
+[Wiki](https://github.com/koding/docs/wiki). The goal of
 the Guides is to have a large series of tutorial & video pairs which go over
 complete instructions on overcoming a common problem, common
 confusion, or just general information in Koding. The Wikis on the otherhand
