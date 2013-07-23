@@ -1,11 +1,11 @@
 {
-  "baseUrl": "/koding-unofficial/",
+  "baseUrl": "/docs/",
   "locals": {
-    "baseUrl": "/koding-unofficial/",
-    "url": "http://leeolayvar.github.io/koding-unofficial",
+    "baseUrl": "/docs/",
+    "url": "http://koding.github.io/docs/",
     "name": "Koding Unofficial Documentation",
     "owner": "leeolayvar",
-    "description": "Unofficial Documentation for Koding.com"
+    "description": "Community Documentation for Koding.com"
   },
   "plugins": [
   ],
