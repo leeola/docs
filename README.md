@@ -2,7 +2,7 @@
 
 # Koding Docs: Community Guides & Wiki
 
-- [Guides](https://koding.github.io/docs):
+- [Guides](http://koding.github.io/docs):
   Guide & Video paired Koding documentation
 - [Wiki](https://github.com/koding/docs/wiki):
   General Community Wiki
