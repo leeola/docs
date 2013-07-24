@@ -1,0 +1,27 @@
+
+extends layout
+
+block append vars
+  - bodyclass += ' article-detail'
+
+block prepend title
+  | #{ page.title + " - "}
+
+block header
+  h1= page.title
+
+block content
+  article.article
+    section.content
+      != typogr(page.html).typogrify()
+      
+      a(name="contributors", class="anchor")
+      h2 Contributors
+      ul
+        - for contributorKey in page.metadata.contributors
+          li
+            - var contributor = contents.authors[contributorKey + '.json']
+            if contributor
+              a(href=contributor.metadata.link)= contributor.metadata.name
+            else
+              =contributorKey

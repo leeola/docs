@@ -1,6 +1,7 @@
 ---
 title: Koding Community Docs
-template: page.jade
+contributors: [leeolayvar, andrewgold]
+template: index.jade
 ---
 
 
@@ -37,10 +38,4 @@ simply trying to help in a place we think we can.
 - The Kitchen Sink: Koding is big, but here are some of the highlights! *(Coming Soon)*
 - [Domain Management](guides/domain-management/): Managing which domain points to which VM.
 - Reinitializing your VM: The magic reset everything button! *(Coming Soon)*
-
-
-
-
-<a name="credits" class="anchor"></a>
-## Contributors
 
