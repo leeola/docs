@@ -21,14 +21,6 @@ simply trying to help in a place we think we can.
 
 
 
-<a name="feature-exploration" class="anchor"></a>
-## Feature Exploration
-
-- The Kitchen Sink: Koding is big, but here are some of the highlights! *(Coming Soon)*
-- [Domain Management](guides/domain-management/): Managing which domain points to which VM.
-
-
-
 <a name="frequently-asked-questions" class="anchor"></a>
 ## Frequently Asked Questions
 
@@ -39,10 +31,13 @@ simply trying to help in a place we think we can.
 
 
 
-<a name="koding-tips" class="anchor"></a>
-## Koding Tips
+<a name="feature-exploration" class="anchor"></a>
+## Feature Exploration
 
-- Reinitializing your VM: the magic reset everything button *(Coming Soon)*
+- The Kitchen Sink: Koding is big, but here are some of the highlights! *(Coming Soon)*
+- [Domain Management](guides/domain-management/): Managing which domain points to which VM.
+- Reinitializing your VM: The magic reset everything button! *(Coming Soon)*
+
 
 
 
