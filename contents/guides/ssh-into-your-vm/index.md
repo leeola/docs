@@ -97,10 +97,16 @@ tutorial, feel free to
   that you have connected successfully.
   
   This step has quite a few Gotchas so please review them below.
-
+  
   Two likely gotchas, are
   [Possible Gotchas: Agent Failure](#agentfailure) and
   [Possible Gotchas: ssh_exchange_identification](#openbrowser) below.
+  
+  ### Error: Could not chdir
+  
+  This "error" can be ignored. I'm not sure what exactly causes it, but
+  everyone experiences it and it does not cause any problems.
+  [@kiwigeraint](https://koding.com/kiwigeraint) says to simply ignore it. :)
 
 
 
