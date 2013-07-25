@@ -137,8 +137,6 @@ on generating your SSH Key, and adding it to Github. Note that Step 3,
 you can simply open the file `~/.ssh/id_rsa.pub` in the Koding Ace
 editor and copy the contents manually. No need for xclip :)
 
-If you're already familiar with Git, and have all that step, readon.
-
 1. Fork the [Koding/docs][0] repo by going to
   [this url](https://github.com/koding/docs/fork) and select the little
   square with your name. This will fork the Koding repo.
