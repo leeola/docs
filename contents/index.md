@@ -1,6 +1,6 @@
 ---
 title: Koding Community Docs
-contributors: [leeolayvar, andygold]
+contributors: [andygold, leeolayvar]
 template: index.jade
 ---
 
