@@ -1,6 +1,6 @@
 ---
 title: Koding Community Docs
-contributors: [andygold, leeolayvar]
+contributors: [andygold, leeolayvar, danielway]
 template: index.jade
 ---
 
@@ -25,12 +25,12 @@ simply trying to help in a place we think we can.
 <a name="frequently-asked-questions" class="anchor"></a>
 ## Frequently Asked Questions
 
-- [How do i setup FTP?](guides/setting-up-ftp/)
-- [How do i install MySQL and phpMyAdmin?](guides/installing-mysql-phpmyadmin/)
-- [How do i SSH into my VM?](guides/ssh-into-your-vm/)
-- [How do i install Wordpress?](guides/installing-wordpress/)
+- [How do I setup FTP?](guides/setting-up-ftp/)
+- [How do I install MySQL and phpMyAdmin?](guides/installing-mysql-phpmyadmin/)
+- [How do I SSH into my VM?](guides/ssh-into-your-vm/)
+- [How do I install Wordpress?](guides/installing-wordpress/)
 - [General .htaccess Issues](guides/general-htaccess/)
-- [How do i find my VM Number?](guides/find-your-vm-number/)
+- [How do I find my VM Number?](guides/find-your-vm-number/)
 
 
 
