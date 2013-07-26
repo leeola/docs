@@ -1,18 +1,25 @@
 {
   "private": true,
-  "name": "koding-unofficial",
-  "description": "Unofficial Koding guides and tutorials.",
+  "name": "koding-docs",
+  "description": "Koding Community Documentation.",
   "author": "leeolayvar <leeolayvar@gmail.com> (http://leeolayvar.kd.io)",
+  "scripts": {
+    "build": "node ./node_modules/.bin/wintersmith build",
+    "preview": "node ./node_modules/.bin/wintersmith preview"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/leeolayvar/koding-unofficial.git"
+    "url": "git://github.com/koding/docs.git"
   },
   "bugs": {
-    "url": "http://github.com/leeolayvar/koding-unofficial/issues"
+    "url": "http://github.com/koding/docs/issues"
   },
-  "dependencies": {
+  "devDependencies": {
     "moment": "2.x",
     "underscore": "1.4.x",
-    "typogr": "0.5.x"
-  }
+    "typogr": "0.5.x",
+    "marked": "git://github.com/leeolayvar/marked.git#heading-ids",
+    "wintersmith": "~2.0.5"
+  },
+  "dependencies": {}
 }

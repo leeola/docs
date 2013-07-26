@@ -16,7 +16,6 @@ So, lets get started!
 
 
 
-<a name="mission" class="anchor"></a>
 ## Mission Statement
 
 While the [Koding Docs Wiki][4] is great for general and quickly evolving
@@ -47,7 +46,6 @@ the Guides from the Wiki and it is how we expect to preserve quality. :)
 
 
 
-<a name="whatyouwillneed" class="anchor"></a>
 ## What you will need
 
 ### Knowledge
@@ -74,7 +72,6 @@ need Wintersmith. For instructions on how to install & run Wintersmith,
 
 
 
-<a name="forking" class="anchor"></a>
 ## Editing
 
 Within the project files you will see a folder called `contents`. This
@@ -122,7 +119,6 @@ something [ask questions][3]!
 
 
 
-<a name="forking" class="anchor"></a>
 ## Forking, Cloning, Committing, and Pull Requesting
 
 This is a rather elementary section of the tutorial. If you know Git,
@@ -204,24 +200,23 @@ your SSH Key.*
 
   
 
-<a name="wintersmithinstallation" class="anchor"></a>
 ## Winstersmith Installation and Preview
 
 ### Installation
 
-1. Type `sudo npm install -g wintersmith`
+1. Navigate to the docs repo directory and type `npm install`
 
 2. You're done!
 
 ### Usage
 
-Wintersmith can be used to preview your project as you type in guides.
+Wintersmith can be used to preview your project as you write guides.
 
 1. To start, open a terminal which will run the Wintersmith process. If
   you need access to the terminal while running Wintersmith, you can close it
   or simply open a second terminal.
 
-2. Start wintersmith with `wintersmith preview`.
+2. Start wintersmith with `npm run-script preview`.
 
 3. Wintersmith is now running on your VM, and you can preview it by going to
   `http://<vm-Number>.<username>.kd.io:8080/docs/`. Note, that Wintersmith's
