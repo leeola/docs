@@ -26,7 +26,8 @@ html(lang='en')
           p.description= locals.description
     
     div#sidebar
-      !=contents['sidebar.md'].html
+      block sidebar
+        !=contents['sidebar.md'].html
     
     div#content
       block content
