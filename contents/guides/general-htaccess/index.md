@@ -34,7 +34,7 @@ i forward the first to the second?
 
 Htaccess makes this pretty simple. Create a .htaccess file in your Web
 directory if you don't already have one
-`touch ~/Web/.htaccess && chmod 664 ~/Web/.htaccess` and add the
+`touch ~/Web/.htaccess && chmod 644 ~/Web/.htaccess` and add the
 following RewriteRule:
 
 ```
