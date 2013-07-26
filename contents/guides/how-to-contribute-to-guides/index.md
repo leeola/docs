@@ -131,13 +131,10 @@ may help you.
 
 This general process will be pretty easy, but a few things are required on
 your own part. You must have an SSH Public Key for your VM added to GitHub. If
-you do not, and you need help doing this, please see
+you do not and you need help doing this, please see
 [this tutorial](https://help.github.com/articles/generating-ssh-keys#platform-linux)
-on generating your SSH Key, and adding it to Github. Note that Step 3,
-you can simply open the file `~/.ssh/id_rsa.pub` in the Koding Ace
-editor and copy the contents manually. No need for xclip :)
-
-If you're already familiar with Git, and have all that step, readon.
+on generating your SSH Key, and adding it to Github. * **!Note!** Ignore the xclip information, just use Ace Editor to copy
+your SSH Key.*
 
 1. Fork the [Koding/docs][0] repo by going to
   [this url](https://github.com/koding/docs/fork) and select the little

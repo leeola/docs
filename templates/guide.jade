@@ -11,6 +11,14 @@ block header
   include author
   h1= page.title
 
+block append sidebar
+  - if (page.metadata.sidebar)
+    h4 Guide Links
+    ul
+      - for linkValue, linkTitle in page.metadata.sidebar
+        li
+          a(href=linkValue)= linkTitle
+
 block content
   article.article
     section.content!= typogr(page.html).typogrify()
