@@ -101,10 +101,15 @@ hr {
   float: right;
   margin: 0 0 1em 1em;
   font-size: 0.9em;
+  max-width: 13em;
 }
 
 #sidebar ul {
   margin: 0 0 0 1em;
+}
+
+#sidebar ul ~ ul {
+  margin-top: 1em;
 }
 
 #sidebar ul li {
