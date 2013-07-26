@@ -29,6 +29,7 @@ simply trying to help in a place we think we can.
 - [How do i install MySQL and phpMyAdmin?](guides/installing-mysql-phpmyadmin/)
 - [How do i SSH into my VM?](guides/ssh-into-your-vm/)
 - [How do i install Wordpress?](guides/installing-wordpress/)
+- [How do i find my VM Number?](guides/find-your-vm-number/)
 
 
 
