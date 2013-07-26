@@ -1,6 +1,14 @@
 ---
 title: SSH Into Your VM
 author: leeolayvar
+sidebar: {
+  'Video': '#video',
+  'What you will need': '#whatyouneed',
+  'Tutorial steps': '#steps',
+  'Confirming installation': '#confirminginstall',
+  'Possible Gotchas': '#gotchas',
+  'Additional Resources': '#additionalresources'
+}
 template: guide.jade
 ---
 
@@ -21,6 +29,7 @@ remove it fully or understand that conflicts may occur. Thanks :)
 
 
 
+<a name="video"></a>
 ## Video
 
 The following is an instructional video which approximately
@@ -31,6 +40,7 @@ installations.
 
 
 
+<a name="whatyouneed"></a>
 ## What you will need
 
 In this tutorial, i am going to use the terminology of "Home" and "Koding"
@@ -54,6 +64,7 @@ tutorial, feel free to
 
 
 
+<a name="steps"></a>
 ## Tutorial Steps
 
 1. First, copy your Public Key, usually found in `~/.ssh/id_rsa.pub`, and copy
@@ -110,6 +121,7 @@ tutorial, feel free to
 
 
 
+<a name="confirminginstall"></a>
 ## Confirming your Installation
 
 The best way to confirm your installation is simply by connecting to your
@@ -117,6 +129,8 @@ Koding VM. For information on this, see Step #3 above.
 
 
 
+
+<a name="gotchas"></a>
 ## Possible Gotchas
 
 
@@ -173,7 +187,7 @@ Account Settings -> SSH Keys takes care of the authorization for you.
 
 
 
-
+<a name="additionalresources"></a>
 ## Additional Resources
 
 - [Agent Failure Information](https://help.github.com/articles/error-agent-admitted-failure-to-sign)
