@@ -2,6 +2,12 @@
 title: Domain Management
 author: leeolayvar
 template: guide.jade
+sidebar: {
+  'Video': '#video',
+  'Changing username.kd.io': '#changing-the-username.kd.io-vm',
+  'Creating additional domains': '#creating-additional-domains',
+  'Additional resources': '#additional-resources'
+}
 ---
 
 In this guide we will cover how to manage your Koding subdomains.
