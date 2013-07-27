@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/leeolayvar/.nvm/v0.8.23/bin/node',
+1 verbose cli   '/home/leeolayvar/.nvm/v0.8.23/bin/npm',
+1 verbose cli   'run-script',
+1 verbose cli   'preview' ]
+2 info using npm@1.2.18
+3 info using node@v0.8.23
+4 verbose read json /home/leeolayvar/projects/docs/package.json
+5 verbose run-script [ 'preview' ]
+6 info preview koding-docs@
+7 verbose unsafe-perm in lifecycle true
+8 silly exec sh "-c" "node ./node_modules/.bin/wintersmith preview"
+9 silly sh,-c,node ./node_modules/.bin/wintersmith preview,/home/leeolayvar/projects/docs spawning
+10 info koding-docs@ Failed to exec preview script
+11 error koding-docs@ preview: `node ./node_modules/.bin/wintersmith preview`
+11 error `sh "-c" "node ./node_modules/.bin/wintersmith preview"` failed with 1
+12 error Failed at the koding-docs@ preview script.
+12 error This is most likely a problem with the koding-docs package,
+12 error not with npm itself.
+12 error Tell the author that this fails on your system:
+12 error     node ./node_modules/.bin/wintersmith preview
+12 error You can get their info via:
+12 error     npm owner ls koding-docs
+12 error There is likely additional logging output above.
+13 error System Linux 3.9.0-0-generic
+14 error command "/home/leeolayvar/.nvm/v0.8.23/bin/node" "/home/leeolayvar/.nvm/v0.8.23/bin/npm" "run-script" "preview"
+15 error cwd /home/leeolayvar/projects/docs
+16 error node -v v0.8.23
+17 error npm -v 1.2.18
+18 error code ELIFECYCLE
+19 verbose exit [ 1, true ]

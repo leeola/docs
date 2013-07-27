@@ -75,7 +75,7 @@ it if you like. An installation of Wintersmith would allow you to preview
 the rendered Markdown as you write, helping ensure formatting is as you expect.
 Again, this is entirely optional. As long as your markdown is valid, you don't
 need Wintersmith. For instructions on how to install & run Wintersmith,
-[see below](#wintersmithinstallation).
+[see below](#wintersmith-installation-and-preview).
 
 
 
