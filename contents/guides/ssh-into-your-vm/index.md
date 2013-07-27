@@ -29,7 +29,6 @@ remove it fully or understand that conflicts may occur. Thanks :)
 
 
 
-<a name="video"></a>
 ## Video
 
 The following is an instructional video which approximately
@@ -40,7 +39,6 @@ installations.
 
 
 
-<a name="whatyouneed"></a>
 ## What you will need
 
 In this tutorial, i am going to use the terminology of "Home" and "Koding"
@@ -64,7 +62,6 @@ tutorial, feel free to
 
 
 
-<a name="steps"></a>
 ## Tutorial Steps
 
 1. First, copy your Public Key, usually found in `~/.ssh/id_rsa.pub`, and copy
@@ -110,8 +107,10 @@ tutorial, feel free to
   This step has quite a few Gotchas so please review them below.
   
   Two likely gotchas, are
-  [Possible Gotchas: Agent Failure](#agentfailure) and
-  [Possible Gotchas: ssh_exchange_identification](#openbrowser) below.
+  [Possible Gotchas: Agent Failure](#agent-admitted-failure?)
+  and
+  [Possible Gotchas: ssh_exchange_identification](#ssh_exchange_identification-/-keep-koding-open-in-browser)
+  below.
   
   ### Error: Could not chdir
   
@@ -121,7 +120,6 @@ tutorial, feel free to
 
 
 
-<a name="confirminginstall"></a>
 ## Confirming your Installation
 
 The best way to confirm your installation is simply by connecting to your
@@ -130,11 +128,9 @@ Koding VM. For information on this, see Step #3 above.
 
 
 
-<a name="gotchas"></a>
 ## Possible Gotchas
 
 
-<a name="agentfailure" class="anchor"></a>
 ### Agent admitted failure?
 
 If you receive an error when you attempt to connect, matching the following
@@ -151,7 +147,6 @@ on the subject.
 
 
 
-<a name="openbrowser" class="anchor"></a>
 ### ssh_exchange_identification / Keep Koding Open in Browser
 
 Until Always-On VMs are available, Koding will shut down your VM after
@@ -177,7 +172,6 @@ If your VM is toggled off, it can be turned on by going to
 
 
 
-<a name="authorizedkeys" class="anchor"></a>
 ### ~/.ssh/authorized_keys
 
 You do *not* need to use authorized_keys in the Koding VMs. The
@@ -187,7 +181,6 @@ Account Settings -> SSH Keys takes care of the authorization for you.
 
 
 
-<a name="additionalresources"></a>
 ## Additional Resources
 
 - [Agent Failure Information](https://help.github.com/articles/error-agent-admitted-failure-to-sign)
