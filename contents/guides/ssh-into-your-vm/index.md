@@ -1,15 +1,15 @@
 ---
 title: SSH Into Your VM
 author: leeolayvar
+template: guide.jade
 sidebar: {
   'Video': '#video',
-  'What you will need': '#whatyouneed',
-  'Tutorial steps': '#steps',
-  'Confirming installation': '#confirminginstall',
-  'Possible Gotchas': '#gotchas',
-  'Additional Resources': '#additionalresources'
+  'What you will need': '#what-you-will-need',
+  'Tutorial Steps': '#tutorial-steps',
+  'Possible Gotchas': '#possible-gotchas',
+  'Confirming your Installation': '#confirming-your-installation',
+  'Additional resources': '#additional-resources'
 }
-template: guide.jade
 ---
 
 

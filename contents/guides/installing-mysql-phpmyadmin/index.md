@@ -2,6 +2,13 @@
 title: Installing MySQL and phpMyAdmin
 author: leeolayvar
 template: guide.jade
+sidebar: {
+  'Video': '#video',
+  'What you will need': '#what-you-will-need',
+  'Koding App Installation': '#steps-for-installing-with-the-koding-app',
+  'Manual Installation': '#steps-for-manual-installation',
+  'Confirming your Installation': '#confirming-your-installation'
+}
 ---
 
 
