@@ -2,6 +2,14 @@
 title: SSH Into Your VM
 author: leeolayvar
 template: guide.jade
+sidebar: {
+  'Video': '#video',
+  'What you will need': '#what-you-will-need',
+  'Tutorial Steps': '#tutorial-steps',
+  'Possible Gotchas': '#possible-gotchas',
+  'Confirming your Installation': '#confirming-your-installation',
+  'Additional resources': '#additional-resources'
+}
 ---
 
 
@@ -99,8 +107,10 @@ tutorial, feel free to
   This step has quite a few Gotchas so please review them below.
   
   Two likely gotchas, are
-  [Possible Gotchas: Agent Failure](#agentfailure) and
-  [Possible Gotchas: ssh_exchange_identification](#openbrowser) below.
+  [Possible Gotchas: Agent Failure](#agent-admitted-failure?)
+  and
+  [Possible Gotchas: ssh_exchange_identification](#ssh_exchange_identification-/-keep-koding-open-in-browser)
+  below.
   
   ### Error: Could not chdir
   
@@ -117,10 +127,10 @@ Koding VM. For information on this, see Step #3 above.
 
 
 
+
 ## Possible Gotchas
 
 
-<a name="agentfailure" class="anchor"></a>
 ### Agent admitted failure?
 
 If you receive an error when you attempt to connect, matching the following
@@ -137,7 +147,6 @@ on the subject.
 
 
 
-<a name="openbrowser" class="anchor"></a>
 ### ssh_exchange_identification / Keep Koding Open in Browser
 
 Until Always-On VMs are available, Koding will shut down your VM after
@@ -163,12 +172,10 @@ If your VM is toggled off, it can be turned on by going to
 
 
 
-<a name="authorizedkeys" class="anchor"></a>
 ### ~/.ssh/authorized_keys
 
 You do *not* need to use authorized_keys in the Koding VMs. The
 Account Settings -> SSH Keys takes care of the authorization for you.
-
 
 
 

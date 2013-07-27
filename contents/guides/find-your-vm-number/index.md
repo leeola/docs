@@ -2,6 +2,10 @@
 title: Find Your VM Number
 author: leeolayvar
 template: guide.jade
+sidebar: {
+  'Video': '#video',
+  'Finding your VM Number': '#finding-your-vm-number'
+}
 ---
 
 Finding your VM Number is a pretty easy task, but it is one that the majority

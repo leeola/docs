@@ -17,7 +17,10 @@ block append sidebar
     ul
       - for linkValue, linkTitle in page.metadata.sidebar
         li
-          a(href=linkValue)= linkTitle
+          - if (linkValue[0] == '#')
+            a(href=page.url + linkValue)= linkTitle
+          - else
+            a(href=linkValue)= linkTitle
 
 block content
   article.article

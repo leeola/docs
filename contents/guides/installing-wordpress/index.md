@@ -2,6 +2,13 @@
 title: Installing Wordpress
 author: leeolayvar
 template: guide.jade
+sidebar: {
+  'Video': '#video',
+  'What you will need': '#what-you-will-need',
+  'Steps for Installation': '#steps-for-installation',
+  'Confirming your Installation': '#confirming-your-installation',
+  'Additional resources': '#additional-resources'
+}
 ---
 
 

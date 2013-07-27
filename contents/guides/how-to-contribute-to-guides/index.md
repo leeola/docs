@@ -2,6 +2,13 @@
 title: How to Contribute to Guides
 author: leeolayvar
 template: guide.jade
+sidebar: {
+  'Mission Statement': '#mission-statement',
+  'What you will need': '#what-you-will-need',
+  'Editing': '#editing',
+  'Forking & Pull Requesting': '#forking,-cloning,-committing,-and-pull-requesting',
+  'Wintersmith Preview': '#wintersmith-installation-and-preview',
+}
 ---
 
 
@@ -200,7 +207,7 @@ your SSH Key.*
 
   
 
-## Winstersmith Installation and Preview
+## Wintersmith Installation and Preview
 
 ### Installation
 

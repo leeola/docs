@@ -2,6 +2,10 @@
 title: General .htaccess
 author: leeolayvar
 template: guide.jade
+sidebar: {
+  'Video': '#video',
+  'RewriteEngine & mod_rewrite': '#rewriteengine-&-mod_rewrite'
+}
 ---
 
 
@@ -25,8 +29,7 @@ free to [correct me][0] on any inaccuracies! Thanks! *~leeolayvar*
 
 ## General .htaccess Instructions
 
-<a name="modrewrite" class="anchor"></a>
-### RewriteEngine & mod_rewrite 
+### RewriteEngine & mod_rewrite
 
 For the sake of discussion, lets say i have two Koding domains
 `http://username.kd.io` and `http://my.name.is.username.kd.io`. How would
