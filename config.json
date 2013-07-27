@@ -20,5 +20,8 @@
   "markdown": {
     "smartLists": true,
     "smartypants": true
+  },
+  "marked": {
+    "anchors": true
   }
 }
