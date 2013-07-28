@@ -6,14 +6,14 @@ template: guide.jade
 
 
 
-Koding offers nearly unlimited possibilities; so many infact, that people
+Koding offers nearly unlimited possibilities; so many in fact, that people
 often misunderstand what Koding is being designed for. Knowing the goals
 of the platform will help you make the most of it and not feel misled when
 something isn't as expected.
 
 This guide will briefly go over what Koding is, identify some
-misconceptions people have, and why certain restrictions and choices were
-made.
+misconceptions people may have, and why certain restrictions and choices
+were made.
 
 
 
