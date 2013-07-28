@@ -19,6 +19,20 @@ made.
 
 ## What Is Koding?
 
+Koding is an online development environment with the goal of simpifying
+wordwide development and providing free computation and development to
+everyone.
+
+It does this by offering Free VMs for development to anyone.
+The Koding VMs provide you with a *real* Ubuntu OS, with a *real* Terminal,
+and allow you to work on *real* code. Python, PHP, C++, C, it doesn't matter.
+Even better, they are online. Accessible from anywhere in the world. Even
+sharable with teams.
+
+
+
+## Is Koding a Production Host?
+
 Koding is first and foremost a Development Environment. All features have been
 tailored with this in mind and evidence of this is reflected in all of the
 features you see implemented. Lets highlight some of these items.
@@ -74,11 +88,4 @@ open and powerful environment to *make stuff*! So by all means
 *make* your Wordpress blog on Koding, and if you really want
 to host it on Koding wait a while and buy an Always-On VM. Just
 be aware of the design goals.
-
-
-
-## Is Koding a Production Host?
-
-No. Read the above sections, they are important.
-
 
