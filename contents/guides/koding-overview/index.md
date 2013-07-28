@@ -19,8 +19,8 @@ were made.
 
 ## What Is Koding?
 
-Koding is an online development environment with the goal of simpifying
-wordwide development and providing free computation and development to
+Koding is an online development environment with the goal of simplifying
+worldwide development and providing free computation and development to
 everyone.
 
 It does this by offering Free VMs for development to anyone.
@@ -40,7 +40,7 @@ features you see implemented. Lets highlight some of these items.
 ### VMs Shutdown After Logout
 
 Approximately 20 minutes after you log out, your Free VMs will shut down. Why?
-Koding's development focus is not centered around hosting a your blog/site.
+Koding's development focus is not centered around hosting your blog/site.
 Koding is here to enable you and to help you make great things. Attempting
 to be yet another host in a sea of perfectly capable production hosts
 won't help achieve that goal.
@@ -77,7 +77,7 @@ Why is this? Well, production hosting is hard, and there are obvious
 benefits to letting someone else do it. The idea of uploading your
 php site to a standard php host is easy. The idea of buying a
 dedicated server, setting up Apache, firewalls, updates, etc, just
-seems a bit crazy in comparison. Ontop of that, what about
+seems a bit crazy in comparison. On top of that, what about
 load balancing and CDNs? Doing it all yourself can be hard.
 
 Well, Koding gives you that raw machine. It's not trying to make
