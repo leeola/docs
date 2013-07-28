@@ -45,26 +45,24 @@ Koding is here to enable you and to help you make great things. Attempting
 to be yet another host in a sea of perfectly capable production hosts
 won't help achieve that goal.
 
+Another benefit of this system, is that it helps avoid security concerns that
+collectively harm us all. There are plenty of users out there who have used
+Koding to host dangerous applications. Phishing, scamming, spamming, all
+of it. This directly harms all of us, by giving Koding a bad name,
+wasting resources, and hindering a service that we are trying to be productive
+with. It's no surprise that restrictions need to be put in place to inhibit
+this behavior, for the benefit of everyone.
+
 **Note:** In the future Paid Always-On VMs will be an option. This is
 currently not available though.
 
 ### CPU Bursts vs Sustained
 
-The VMs are designed in such a way that they help short processes complete
-fast, but less so to long running processes. Why? Well, you have to admit
-that giving everyone 100% CPU all the time for a free host is unrealistic.
-
-Production hosts solve this problem by giving you a smaller percentage
-of the raw CPU, but at a sustained rate. They offer some burst, but less
-burst is generally available due to a more consistent sustained
-expectation.
-
-On the otherhand, Koding wants to help you get work done, and get work
-done fast. Things like compilers have a lot to compute but in short
-sporadic bursts. Koding's CPU allocation has been tailored with this
-in mind. It wants you to compute what you need, as soon as possible.
-It is not tailored for a long running process that expects heavy
-and consistent usage, such as a Minecraft server.
+Koding wants to help you get work done, and get work done fast. Things like
+compilers have a lot to compute, but in short sporadic bursts. Koding's CPU
+allocation has been tailored with this in mind. It wants you to compute what
+you need, as soon as possible. It is not tailored for a long running
+process that expect heavy and consistent usage, such as a Minecraft server.
 
 ### Raw Ubuntu OS
 
