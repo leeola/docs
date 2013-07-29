@@ -37,7 +37,7 @@ simply trying to help in a place we think we can.
 <a name="feature-exploration" class="anchor"></a>
 ## Feature Exploration
 
-- The Kitchen Sink: Koding is big, but here are some of the highlights! *(Coming Soon)*
 - [Domain Management](guides/domain-management/): Managing which domain points to which VM.
+- [Publishing Koding Apps](guides/app-submission/): How to submit Koding Apps.
 - Reinitializing your VM: The magic reset everything button! *(Coming Soon)*
 
