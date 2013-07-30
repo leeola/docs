@@ -40,7 +40,7 @@ You will need to know a few things for this tutorial:
 
 You will also need to have MySQL previously installed. If you need to
 install MySQL please check out
-[[this tutorial|MySQL phpMyAdmin Installation]].
+[this tutorial](/docs/guides/installing-mysql-phpmyadmin/).
 
 
 
@@ -56,10 +56,6 @@ install it into the root folder.
 2. Next, we'll backup the `~/Web` directory, and replace it with `~/wordpress`
   with the following command:
   `mv Web Web.bkp && mv wordpress Web`
-
-3. Next, we need to copy the sample Wordpress config, so that we can run
-  the config setup later. Enter the following command:
-  `cp Web/wp-config-sample.php Web/wp-config.php`
 
 3. Next, we're going to set the `chmod` of the directory so that Wordpress
   can write it's only configuration file. To do that, run:
@@ -85,13 +81,11 @@ install it into the root folder.
   database you would like Wordpress to use, same for `<wpuser>` and `<wppass>`.
   The commands are:
   
-  `CREATE DATABASE <dbname>;`
+  1. `CREATE DATABASE <dbname>;`
   
-  ```
-  GRANT ALL PRIVILEGES ON <dbname>.* TO "<wpuser>"@"localhost" IDENTIFIED BY "<dbpass>";
-  ```
+  2. `GRANT ALL PRIVILEGES ON <dbname>.* TO "<wpuser>"@"localhost" IDENTIFIED BY "<dbpass>";`
   
-  `FLUSH PRIVILEGES;`
+  3. `FLUSH PRIVILEGES;`
   
   An example of what this might look like if i created the database
   `wordpress` with the username `wpusername` and the password `wpuserpass`
@@ -102,37 +96,38 @@ install it into the root folder.
   Welcome to the MySQL monitor.  Commands end with ; or \g.
   Your MySQL connection id is 48
   Server version: 5.5.31-0ubuntu0.13.04.1 (Ubuntu)
-   
+  
   Copyright (c) 2000, 2013, Oracle and/or its affiliates. All rights reserved.
-   
+  
   Oracle is a registered trademark of Oracle Corporation and/or its
   affiliates. Other names may be trademarks of their respective
   owners.
-   
+  
   Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
-   
+  
   mysql> CREATE DATABASE wordpress;
   Query OK, 1 row affected (0.01 sec)
-   
+  
   mysql> GRANT ALL PRIVILEGES ON wordpress.* TO "wpusername"@"localhost" IDENTIFIED BY "wpuserpass";
   Query OK, 0 rows affected (0.00 sec)
-   
+  
   mysql> FLUSH PRIVILEGES;
   Query OK, 0 rows affected (0.00 sec)
-   
+  
   mysql>  
   ```
   
 6. We're almost done! Now we can navigate to our wordpress config setup.
-  To do this, navigate to
-  `http://<username>.kd.io/wp-admin/setup-config.php?step=1`.
-  where `<username>` is your username.
+  To do this, navigate to our VM Connection url *(eg: http://username.kd.io,
+  http://vm-1.username.kd.io, etc)*. Next, press the **"Create a
+  Configuration File"** button, then the **"Lets Go"** button and
+  you will be presented with your configuration options.
   
   Enter in the database, wpuser, and wppass that we created above and press
   submit. You can leave the database host as `localhost` and the table prefix
   as `wp_`. An example of this filled out with the information from my above
   example is below.
-  [[setup-config.png]]
+  ![Setup Config](setupconfig.png)
   
   #### Possible Gotcha: Sorry, but I can’t write the wp-config.php file.
   
