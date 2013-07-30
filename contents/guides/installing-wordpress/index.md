@@ -25,7 +25,10 @@ remove it fully or understand that conflicts may occur. Thanks :)
 
 ## Video
 
-***(Video Coming Soon)***
+The following is an instructional video which approximately
+mirrors the steps below.
+
+<iframe width="680" height="450" src="//www.youtube.com/embed/gJurcN1Vgws" frameborder="0" allowfullscreen></iframe>
 
 
 
