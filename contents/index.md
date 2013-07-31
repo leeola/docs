@@ -38,5 +38,5 @@ simply trying to help in a place we think we can.
 ## Feature Exploration
 
 - [Domain Management](guides/domain-management/): Managing which domain points to which VM.
-- Reinitializing your VM: The magic reset everything button! *(Coming Soon)*
+- [Reinitializing your VM](guides/reinitializing-your-vm/): The magic reset everything button!
 
