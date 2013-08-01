@@ -2,6 +2,11 @@
 title: Koding Overview
 author: leeolayvar
 template: guide.jade
+sidebar: {
+  'Koding in 2 Minutes Video': '#koding-in-2-minutes-video',
+  'What is Koding?': '#what-is-koding?',
+  'Is Koding a Production Host?': '#is-koding-a-production-host?',
+}
 ---
 
 
@@ -14,6 +19,12 @@ something isn't as expected.
 This guide will briefly go over what Koding is, identify some
 misconceptions people may have, and why certain restrictions and choices
 were made.
+
+
+
+## Koding in 2 Minutes Video
+
+<iframe width="680" height="450" src="//www.youtube.com/embed/sjrZbPzF5X0" frameborder="0" allowfullscreen></iframe>
 
 
 
