@@ -6,7 +6,8 @@ sidebar: {
   'Video': '#video',
   'What are Koding Apps?': '#what-are-koding-apps?',
   'Apps, The nitty gritty details': '#apps,-the-nitty-gritty-details',
-  'App Development': '#app-development'
+  'App Development': '#app-development',
+  'App Submission': '#app-submission'
 }
 ---
 
@@ -71,6 +72,15 @@ best we currently have.
 In the future, when i understand App Development more, i'll be making a
 guide on the subject. Feel free to [contact me][4] if you'd like to
 contribute :)
+
+
+
+## App Submission
+
+So, you made an awesome app and you want to submit it right? There
+is a guide written for this, but it is currently awaiting review from
+the Koding Devs to make sure the process is correct. Once the review
+is complete it'll be posted, so hang tight!
 
 
 
