@@ -72,7 +72,7 @@ section below.
 
 3. Enter your Koding password, which is your root password.
   
-  #### Possible Gotcha: Unmet Dependancies?
+  #### Possible Gotcha: Unmet Dependencies?
   
   If, after entering your password, you run into a screen that looks like this:
   ![Unment Dependencies](unmetdeps.png)
