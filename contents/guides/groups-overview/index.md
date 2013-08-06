@@ -102,8 +102,8 @@ So, if Privacy is set to `Public`, users can join themselves by pressing
 
 **Note:** A Privacy setting of `Private` does not mean a random guest/member
 cannot view your Group. If you want to make your group unlisted and
-content invisible see the [visiblity](#visibility-options) and
-[CActivity](#cactivity) options below.
+content invisible, remove the `Read Activity` permission from the "Guest"
+role. Also, see the visibility options below.
 
 ### Visibility Options
 
