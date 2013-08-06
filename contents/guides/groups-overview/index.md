@@ -1,6 +1,7 @@
 ---
 title: Koding Groups Overview
 author: leeolayvar
+contributors: [andygold]
 template: guide.jade
 ---
 
@@ -17,62 +18,71 @@ one.
 
 ## What are Groups?
 
-Groups give you and your team a section of Koding to be productive. The
+Koding Groups basically give you your own corner of Koding. They let you
+have you own Activity feed, to discuss anything, with all the features of
+the main Koding group. Tags, content types, VMs, etc.
+
+They give you and your team a section of Koding to be productive. The
 activity feed of your group can be public or private and you can even make
 [Shared VMs](#shared-vms)!
 
-They are being designed for large and small team collaboration, and have the
-ability to support any number of users. Even the default Koding feed, is a
-Group.
+Koding groups are being designed for any number of users. Your team,
+your class, your school or your company, anything will fit into a
+Koding group.
+
+
+
+
+## Group Dashboard
+
+Your Group Dashboard is the control center for your Group. It contains
+settings, invitations and permissions.
+
+To find this, go to your Group, and look in the lower left near Your Account.
+Above the Logout button, is a **Group** button. Click this, and you will be
+in your dashboard. Settings, invitations, permissions, all of these can
+be navigated on the left.
+
+
+
+## Shared VMs
+
+Shared VMs are similar to Personal VMs, except that multiple users are on the
+same VM. Usage and resources are shared, but locations are not by default.
+
+### Filesystem
+
+The filesystem is a point of confusion for a lot of users. A user will often
+expect to be sharing the same home directory as another user. which
+is not the case by default.
+It is the same machine, but not the same home/user directories.
+
+For the sake of this explanation, lets say we have two users. `john` and
+`henry`, with a Shared VM of `shared-0.ourgroup.kd.io`.
+In the filesystem, Johns home directory is located at `/home/john`
+and Henrys is located at `/home/henry`. The actual `ourgroup` VM is located
+at `/home/ourgroup`.
+
+This seems pretty straight forward, but then the next common question is
+how can i connect to my Shared VM `~/Web` directory? In a shared VM, 
+`~/Web` directories are linked to `/home/<groupname>/Web/~<username>/`.
+
+So, in practice the connection addresses look like this:
+
+- `http://shared-0.ourgroup.kd.io` = `/home/ourgroup/Web`
+- `http://shared-0.ourgroup.kd.io/~john` = `/home/john/Web`
+- `http://shared-0.ourgroup.kd.io/~henry` = `/home/henry/Web`
 
 
 
 ## Group Invitations
 
-Since groups can be private, you have multiple avenues to invite team
+Since groups can be private, you have multiple methods of inviting team
 members. The different ways you can invite are in place to support many
-different types of teams. Lets go over each type of invitation real quick.
+different types of teams.
 
-All invites can be found from from your Group Dashboard
-`https://koding.com/<group-name>/Dashboard`. To find this, go to your
-group, and on the left side select *"Group"*. You will then be directed to
-your Dashboard. Select Invitations.
-
-### Email
-
-Invitation by email allows you to target any number of members by sending
-them unique invites via email.
-
-Enter in any number of emails, one on each line. You can also modify the
-email contents that are sent to each of the emails. Make sure to include
-the `#URL#` variable! This allows them to actually join with the
-invitation link.
-
-After you are satisfied with the email and recipients, click send. An example
-image is below
-![Email Invite](emailinvite.png)
-
-### Invite Codes
-
-Invite codes can be a link, or a code entered upon visiting the group. They
-have a customizable limit on how many times a code can be redeemed as well.
-
-To create a code, simply go to the *"Invitation Codes"* tab, and press the
-*"Create Invitation Code"* button. You can now use the generated code or
-make your own, as well as explicitly define how many times this code can
-be redeemed. An example image is below.
-![Code Invite](codeinvite.png)
-
-### Invitation Requests
-
-Lastly, if you have your Group set up, users can simply request access.
-You can then approve requesters one by one, or in bulk.
-
-Any users who have requested access will show up here. You can approve them
-or deny them, and if you click *"Bulk Approve"* in the upper right, you
-can approve as many users as you want at once. Note that for users to
-request access, your [Privacy Options](#privacy-options) must be set
-to Public.
+Invitation settings can be found from your
+[Group Dashboard](#group-dashboard) and clicking on **Invitations**.
 
 
 
@@ -113,9 +123,9 @@ Group List and content will not show up in the Koding Feed.
 
 ## Group Permissions
 
-Group permissions are quite extensive and configurable. So configurable,
-that we can't go over every single setting. What we will go over, is how
-it is all structured and what each group means.
+Permissions are quite an extensive topic. In this guide we will focus
+on generally explaining Roles, Permissions, and how to assign them to
+users.
 
 ### Roles
 
@@ -124,58 +134,31 @@ and assigned to users of your Group. Allowing you to control what users with
 that role are able to do. Groups come with four roles by default, and can
 have additional roles added.
 
-~~To add a Role, go to your Group Dashboard and select the Permissions menu
-item. From there, look in the bottom and select the **"Add Role"** button.
-From there, you can define the Role Name, as well as importing a set of
-permissions that the role will have to start with.~~
+To add a role, look for the **Add Role** button in the lower left of the
+permissions section.
 
-**IMPORTANT:** There is currently a bug with adding roles.
-**DO NOT ADD ROLES**. I will remove this when i am aware of the bug being
-fixed, but for the time being it is best to not add additional roles. The
-default roles work perfectly fine. ~lee
+### Permissions
 
-### Permission Categories
+Permissions are assigned to roles, and then roles to users. Assigning a
+permission is quite simple, just check the box for that role. If that role
+has a checked box on a permission, then that role has that permission.
 
-The permissions are arranged in categories for ease of navigation. They
-also include quite a few not-implemented permissions as well. With this
-said, we will just go over a few of the more notable permissions in this
-guide. Please see [the wiki][1]'s permissions table for detailed
-information of these. In the future, when more are of the permission
-features are implemented we will likely go over them here, with a video.
+For a table with the known permissions described, check out [this wiki
+post][1]
+
+Currently we will not go over all of the permissions, but in the future when
+more are implemented, as quite a few are not currently, we will put them
+in a table here and a video will be dedicated to them.
 
 
-- **CActivity -> Read Activity**
-  
-  This controls which roles are able to read your activity feed. Note that
-  this is independant of the Read Posts permission.
+### Assigning a Role
 
+To assign a role, from your [Group Dashboard](#group-dashboard) hover
+over the user you want to assign a role to, and click **Edit**.
+From there, check the Role box of the role you wish to grant/deny.
 
-## Shared VMs
-
-Shared VMs are similar to Personal VMs, except that multiple users are on the
-same VM. Usage and resources are shared, but locations are not by default.
-
-### Filesystem
-
-The filesystem is a point of confusion for a lot of users. They
-expect two users to have the same home directory by default, which is not
-the case. It is the same machine, but not the same home/user directories.
-
-For the sake of this explanation, lets say we have two users. `john` and
-`henry`, with a Shared VM of `shared-0.ourgroup.kd.io`.
-In the filesystem, Johns home directory is located at `/home/john`
-and Henrys is located at `/home/henry`. The actual `ourgroup` VM is located
-at `/home/ourgroup`.
-
-This seems pretty straight forward, but then the next common question is
-how can i connect to my Shared VM `~/Web` directory? In a shared VM, 
-`~/Web` directories are linked to `/home/<groupname>/Web/~<username>/`.
-
-So, in practice the connection addresses look like this:
-
-- `http://shared-0.ourgroup.kd.io` = `/home/ourgroup/Web`
-- `http://shared-0.ourgroup.kd.io/~john` = `/home/john/Web`
-- `http://shared-0.ourgroup.kd.io/~henry` = `/home/henry/Web`
+It's worth noting that the **Guest** and **Member** roles are automatically
+assigned/removed by Koding.
 
 
 
