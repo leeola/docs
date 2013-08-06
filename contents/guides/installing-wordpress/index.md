@@ -159,6 +159,10 @@ your connection url *(eg: `http://username.kd.io`)*. You should be
 redirected to `/wp-admin/install.php` and can continue with the setup.
 
 
+## Update WordPress and plugins
+
+If you need to update Wordpress and its plugins or themes you can use `localhost` as the *Hostname*, `your Koding username` as *FTP Username*,
+`your Koding password` as *FTP Password* and you can leave `FTP` as *Connection Type*
 
 ## Additional Resources
 
