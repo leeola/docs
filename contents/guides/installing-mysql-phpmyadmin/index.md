@@ -96,7 +96,7 @@ section below.
 
 10. That's it! You should now have a working MySQL database, and you can
   connect to phpMyAdmin at the url
-  [http://<username>.kd.io/phpMyAdmin](http://username.kd.io/phpMyAdmin)!
+  [&lt;username&gt;.kd.io/phpMyAdmin](http://username.kd.io/phpMyAdmin)!
 
 
 
