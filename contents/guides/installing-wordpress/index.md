@@ -7,6 +7,7 @@ sidebar: {
   'What you will need': '#what-you-will-need',
   'Steps for Installation': '#steps-for-installation',
   'Confirming your Installation': '#confirming-your-installation',
+  'Update WordPress and Plugins': '#update-wordpress-and-plugins',
   'Additional resources': '#additional-resources'
 }
 ---
