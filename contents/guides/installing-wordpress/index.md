@@ -1,6 +1,7 @@
 ---
 title: Installing Wordpress
 author: leeolayvar
+contributors: [stefancosma]
 template: guide.jade
 sidebar: {
   'Video': '#video',
