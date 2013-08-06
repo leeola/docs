@@ -3,6 +3,14 @@ title: Koding Groups Overview
 author: leeolayvar
 contributors: [andygold]
 template: guide.jade
+sidebar: {
+  'What are Groups?': '#what-are-groups?',
+  'Group Dashboard': '#group-dashboard',
+  'Shared VMs': '#shared-vms',
+  'Group Invitations': '#group-invitations',
+  'Group Settings': '#group-settings',
+  'Group Permissions': '#group-permissions'
+}
 ---
 
 
