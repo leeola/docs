@@ -24,7 +24,7 @@ were made.
 
 ## Koding in 2 Minutes Video
 
-<iframe width="680" height="450" src="//www.youtube.com/embed/sjrZbPzF5X0" frameborder="0" allowfullscreen></iframe>
+<iframe width="680" height="450" src="//www.youtube.com/embed/zCHKLvpIXUA" frameborder="0" allowfullscreen></iframe>
 
 
 
