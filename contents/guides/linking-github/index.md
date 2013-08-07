@@ -20,7 +20,7 @@ logged into Github, you can simply login to Koding with one click!
 
 ## Video
 
-*(Coming Soon)*
+<iframe width="680" height="450" src="//www.youtube.com/embed/7wr4KIQR1wE" frameborder="0" allowfullscreen></iframe>
 
 
 
