@@ -3,6 +3,7 @@ title: Reinitializing Your VM
 author: leeolayvar
 template: guide.jade
 sidebar: {
+  'Video': '#video',
   'What is Reinitializing?': '#what-is-reinitializing?',
   'Reinitializing Experiment': '#reinitializing-experiment',
   'Are there any ‘Gotchas’?': "#are-there-any-'gotchas'?",
@@ -15,6 +16,12 @@ This guide will go over what reinitializing is, and the ramifications and
 advantages of using the feature. It's a good feature to know, and
 understanding it will help you make decisions to make the best use of Koding
 as possible. So, lets get started!
+
+
+
+## Video
+
+<iframe width="680" height="450" src="//www.youtube.com/embed/gOnMImx0Wwk" frameborder="0" allowfullscreen></iframe>
 
 
 
