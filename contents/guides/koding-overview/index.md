@@ -4,31 +4,11 @@ author: leeolayvar
 template: guide.jade
 sidebar: {
   'Koding in 2 Minutes Video': '#koding-in-2-minutes-video',
-  'What is Koding?': '#what-is-koding?',
   'Is Koding a Production Host?': '#is-koding-a-production-host?',
 }
 ---
 
 
-
-Koding offers nearly unlimited possibilities; so many in fact, that people
-often misunderstand what Koding is being designed for. Knowing the goals
-of the platform will help you make the most of it and not feel misled when
-something isn't as expected.
-
-This guide will briefly go over what Koding is, identify some
-misconceptions people may have, and why certain restrictions and choices
-were made.
-
-
-
-## Koding in 2 Minutes Video
-
-<iframe width="680" height="450" src="//www.youtube.com/embed/zCHKLvpIXUA" frameborder="0" allowfullscreen></iframe>
-
-
-
-## What Is Koding?
 
 Koding is an online development environment with the goal of simplifying
 worldwide development and providing free computation and development to
@@ -39,6 +19,14 @@ The Koding VMs provide you with a *real* Ubuntu OS, with a *real* Terminal,
 and allow you to work on *real* code. Python, PHP, C++, C, it doesn't matter.
 Even better, they are online. Accessible from anywhere in the world. Even
 sharable with teams.
+
+If you haven't heard of Koding, [click here][0] and go check it out!
+
+
+
+## Koding in 2 Minutes Video
+
+<iframe width="680" height="450" src="//www.youtube.com/embed/zCHKLvpIXUA" frameborder="0" allowfullscreen></iframe>
 
 
 
@@ -97,4 +85,9 @@ open and powerful environment to *make stuff*! So by all means
 *make* your Wordpress blog on Koding, and if you really want
 to host it on Koding wait a while and buy an Always-On VM. Just
 be aware of the design goals.
+
+
+
+
+[0]: https://koding.com
 
