@@ -85,8 +85,8 @@ is complete it'll be posted, so hang tight!
 
 
 
-[0]: https://koding/Apps
-[1]: https://koding/Develop
+[0]: https://koding.com/Apps
+[1]: https://koding.com/Develop
 [2]: https://koding.com/Apps/kodepad
 [3]: https://koding.com/Apps/appmaker
 [4]: https://github.com/koding/docs/issues/new
