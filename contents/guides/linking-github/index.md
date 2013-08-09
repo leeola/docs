@@ -1,21 +1,21 @@
 ---
-title: Linking Github
+title: Linking GitHub
 author: leeolayvar
 template: guide.jade
 sidebar: {
   'Video': '#video',
   'What you will need': '#what-you-will-need',
-  'Linking Github': '#linking-github',
+  'Linking GitHub': '#linking-github',
   'Additional Resources': '#additional-resources'
 }
 ---
 
 
-In this short guide we will go over linking your Github Account to
+In this short guide we will go over linking your GitHub Account to
 your Koding Account.
 
-What does this do? Linking your Github Account means that if you are already
-logged into Github, you can simply login to Koding with one click!
+What does this do? Linking your GitHub Account means that if you are already
+logged into GitHub, you can simply login to Koding with one click!
 
 
 ## Video
@@ -26,11 +26,11 @@ logged into Github, you can simply login to Koding with one click!
 
 ## What you will need
 
-You will need a [Koding][0] Account and a [Github][1] Account. That's it!
+You will need a [Koding][0] Account and a [GitHub][1] Account. That's it!
 
 
 
-## Linking Github
+## Linking GitHub
 
 
 1. Go to your [Koding Account][2] page, and look for the **Linked Accounts**
@@ -38,8 +38,8 @@ You will need a [Koding][0] Account and a [Github][1] Account. That's it!
 
 2. There will be a link in the middle that says **Link Now**. Click this.
 
-3. A window will popup. This window is Github asking you if you would like
-  to allow *read only* access to your Github account, to Koding.
+3. A window will popup. This window is GitHub asking you if you would like
+  to allow *read only* access to your GitHub account, to Koding.
   
   Click **Allow Access**. An example image is below.
   
@@ -48,17 +48,17 @@ You will need a [Koding][0] Account and a [Github][1] Account. That's it!
 4. That's it! The window will close, and your account will now be linked.
   
   Now, whenever you are logged out and need to login, simply click the
-  **Sign in with Github** button *(which is the little Github Icon)*.
+  **Sign in with GitHub** button *(which is the little GitHub Icon)*.
   An example of this is below.
   
-  ![Signin With Github](signingithub.png)
+  ![Signin With GitHub](signingithub.png)
 
 
 ## Additional Resources
 
 - [Koding][0]
 - [Koding Account][0]
-- [Github][1]
+- [GitHub][1]
 
 
 
