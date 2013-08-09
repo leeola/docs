@@ -1,5 +1,5 @@
 ---
-title: Installing Wordpress
+title: Installing WordPress
 author: leeolayvar
 contributors: [stefancosma]
 template: guide.jade
@@ -14,7 +14,7 @@ sidebar: {
 ---
 
 
-In this tutorial, we will we will go over the basics of getting wordpress
+In this tutorial, we will we will go over the basics of getting WordPress
 installed on Koding. Note that this is the same as on Ubuntu/etc, but
 some users requested this :)
 
@@ -54,7 +54,7 @@ install MySQL please check out
 In this tutorial we are going to start from a fresh installation, and
 install it into the root folder.
 
-1. We'll start by downloading and untaring Wordpress into ~/wordpress,
+1. We'll start by downloading and untaring WordPress into ~/wordpress,
   with the following command:
   `curl wordpress.org/latest.tar.gz | tar xz`
 
@@ -63,7 +63,7 @@ install it into the root folder.
   `mv Web Web.bkp && mv wordpress Web`
 
 3. Next, we're going to set the `chmod` of the directory so that Wordpress
-  can write it's only configuration file. To do that, run:
+  can write its only configuration file. To do that, run:
   
   `chmod 777 Web`
 
@@ -122,7 +122,7 @@ install it into the root folder.
   mysql>  
   ```
   
-6. We're almost done! Now we can navigate to our wordpress config setup.
+6. We're almost done! Now we can navigate to our WordPress config setup.
   To do this, navigate to our VM Connection url *(eg: http://username.kd.io,
   http://vm-1.username.kd.io, etc)*. Next, press the **"Create a
   Configuration File"** button, then the **"Lets Go"** button and
@@ -150,25 +150,25 @@ install it into the root folder.
 7. All right sparky! If you have successfully received the message starting
   with *"All right sparky!"* then you're good to go! Your WordPress
   is ready to be installed via the automatic configuration. Press **Run
-  the install** and proceed with the normal Wordpress installation.
+  the install** and proceed with the normal WordPress installation.
   
 
 
 ## Confirming your Installation
 
-After Step 07, you can confirm your working wordpress by simple visiting
+After Step 07, you can confirm your working WordPress by simple visiting
 your connection url *(eg: `http://username.kd.io`)*. You should be
 redirected to `/wp-admin/install.php` and can continue with the setup.
 
 
 ## Update WordPress and plugins
 
-If you need to update Wordpress and its plugins or themes you can use `localhost` as the **Hostname**, `your Koding username` as **FTP Username**,
+If you need to update WordPress and its plugins or themes you can use `localhost` as the **Hostname**, `your Koding username` as **FTP Username**,
 `your Koding password` as **FTP Password** and you can leave `FTP` as **Connection Type**
 
 ## Additional Resources
 
 - [WordPress.org](http://wordpress.org/)
-- [Wordpress Download](http://wordpress.org/download/)
+- [WordPress Download](http://wordpress.org/download/)
 
 
