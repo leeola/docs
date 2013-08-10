@@ -1,6 +1,7 @@
 ---
 title: Linking GitHub
 author: leeolayvar
+contributors: [dylanbarlett]
 template: guide.jade
 sidebar: {
   'Video': '#video',
