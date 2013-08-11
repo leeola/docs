@@ -1,6 +1,7 @@
 ---
 title: SSH Into Your VM
 author: leeolayvar
+contributors: [gemmalynn]
 template: guide.jade
 sidebar: {
   'Video': '#video',
