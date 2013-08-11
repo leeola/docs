@@ -5,7 +5,8 @@ template: guide.jade
 sidebar: {
   'Video': '#video',
   'What you will need': '#what-you-will-need',
-  'Tutorial Steps': '#tutorial-steps',
+  'Tutorial Steps for OpenSSH on Linux': '#tutorial-steps-for-openssh-on-linux',
+  'Tutorial Steps for PuTTY on Windows': '#tutorial-steps-for-putty-on-windows',
   'Possible Gotchas': '#possible-gotchas',
   'Confirming your Installation': '#confirming-your-installation',
   'Additional resources': '#additional-resources'
@@ -62,7 +63,7 @@ tutorial, feel free to
 
 
 
-## Tutorial Steps
+## Tutorial Steps for OpenSSH on Linux
 
 1. First, copy your Public Key, usually found in `~/.ssh/id_rsa.pub`, and copy
   it in it's entirety! It will look something like this:
@@ -118,7 +119,55 @@ tutorial, feel free to
   everyone experiences it and it does not cause any problems.
   [@kiwigeraint](https://koding.com/kiwigeraint) says to simply ignore it. :)
 
+## Tutorial Steps for PuTTY on Windows
 
+For this connection method, you will need the [PuTTY SSH client suite](http://www.chiark.greenend.org.uk/~sgtatham/putty/).
+
+1. Fire up [PuTTYgen](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html),
+  the SSH key generator for the PuTTY suite. If you already have a private key,
+  load it up; otherwise generate a new key pair. You'll end up with some
+  gibberish, a fingerprint, and some settings.
+  ![PuTTYgen](puttygen.png)
+
+2. Copy the gibberish (your public key) to the SSH Keys section of [your
+  account](https://koding.com/Account), as in [Step #2 above](#tutorial-steps-for-openssh-on-linux).
+  Save your private key to someplace accessible; you'll need it later.
+
+3. Start up [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+  and set the _Host Name (or IP address)_ to the same VM name as above:
+
+  `vm-Number.<username>.koding.kd.io`
+
+  ![PuTTY session](puttysession.png)
+
+4. In the _Category_ menu on the left, select _Data_ under _Connection_. Enter
+  your Koding username in the _Auto-login username_ box.
+
+5. Select _Proxy_ under _Connection_, and change the _Proxy type_ to _Local_.
+  Enter the following line (modified for your system) in the _Telnet command,
+  or local proxy command_ box:
+
+  `C:\your\path\to\plink.exe <username>@ssh.koding.com -nc %host:%port`
+
+  Note that you will need to have [Plink](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+  installed on your system.
+  ![PuTTY proxy](puttyproxy.png)
+
+6. Under the _Connection_ menu, open up the _SSH_ menu and select _Auth_.
+  Enable the _Allow agent forwarding_ checkbox. Under _Private key file for
+  authentication_, browse to the private key you saved in Step 2.
+  ![PuTTY SSH auth](puttyauth.png)
+
+7. (Optional) Go back up to the _Session_ settings and save this PuTTY
+  configuration to a new session.
+
+8. Click _Open_ to connect to your VM.
+
+If you have trouble connecting, try running the Plink proxy command in `verbose`
+mode (`-v`) from a console (outside PuTTY itself). You'll need to manually specify the
+private key with `-i`.
+
+`> C:\path\to\plink.exe -v -i c:\path\to\private\key.ppk <username>@ssh.koding.com -nc vm-Number.<username>.koding.kd.io:22`
 
 ## Confirming your Installation
 
