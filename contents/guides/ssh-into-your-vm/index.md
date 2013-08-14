@@ -205,9 +205,11 @@ familiar with PuTTY and you think something should be changed, please
   
   `C:\your\path\to\plink.exe -i c:\path\to\private\key.ppk <username>@ssh.koding.com -nc %host:%port`
   
-8. You're done! You can now connect to Koding via PuTTY. To connect, you can
-  either right click the Pageant Icon and under *"Saved Sessions"*, click
-  on your Saved Session.
+8. You're done! You can now connect to Koding via PuTTY.
+
+  To connect with Pageant, you can right click the Pageant
+  Icon, and under *"Saved Sessions"* click on your Saved Session. This
+  will automatically open up PuTTY and start connecting.
   
   To connect from PuTTY itself, open PuTTY and select your Saved Session from
   the list, then click Open.
