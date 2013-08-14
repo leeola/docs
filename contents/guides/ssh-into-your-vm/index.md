@@ -186,13 +186,24 @@ familiar with PuTTY and you think something should be changed, please
   
   ### PuTTY Auth
   
-  Open PuTTY, and
+  Reopen PuTTY and select your Session, then click Load.
   
-  Under the _Connection_ menu, open up the _SSH_ menu and select _Auth_.
+  Next, under the _Connection_ menu, open up the _SSH_ menu and select _Auth_.
   Enable the _Allow agent forwarding_ checkbox. Under _Private key file for
   authentication_, browse to the private key you saved in Step 2.
   
   ![PuTTY SSH auth](puttyauth.png)
+  
+  Next, Plink needs to know the explicit location of your key. So go back to
+  *"Proxy"* under *"Connection"* and look for the *"Telnet command,
+  or local proxy command"* box. Currently, it should look like this:
+  
+  `C:\your\path\to\plink.exe <username>@ssh.koding.com -nc %host:%port`
+  
+  Modify it, by adding your private key location. So, it will look like
+  this:
+  
+  `C:\your\path\to\plink.exe -i c:\path\to\private\key.ppk <username>@ssh.koding.com -nc %host:%port`
   
 8. You're done! You can now connect to Koding via PuTTY. To connect, you can
   either right click the Pageant Icon and under *"Saved Sessions"*, click
