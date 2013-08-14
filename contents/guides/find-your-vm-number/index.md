@@ -18,7 +18,10 @@ So, lets get started!
 
 ## Video
 
-*(Coming Soon)*
+The following is an instructional video which approximately
+mirrors the steps below.
+
+<iframe width="680" height="450" src="//www.youtube.com/embed/TfFlgkP6TPM" frameborder="0" allowfullscreen></iframe>
 
 
 

@@ -23,7 +23,10 @@ free to [correct me][0] on any inaccuracies! Thanks! *~leeolayvar*
 
 ## Video
 
-*(No Video Yet)*
+The following is an instructional video which approximately
+mirrors the steps below.
+
+<iframe width="680" height="450" src="//www.youtube.com/embed/qR7Qtmf7BdQ" frameborder="0" allowfullscreen></iframe>
 
 
 

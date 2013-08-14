@@ -130,7 +130,8 @@ something [ask questions][3]!
 
 This is a rather elementary section of the tutorial. If you know Git,
 please ignore this. If you only basically understand Git, this tutorial
-may help you.
+may help you. The [Additional Resources](#additional-resources) section
+also contains some Git tutorials and guides that may be of help.
 
 This general process will be pretty easy, but a few things are required on
 your own part. You must have an SSH Public Key for your VM added to GitHub. If
@@ -230,7 +231,13 @@ Wintersmith can be used to preview your project as you write guides.
   preview web server can be a bit picky. It requires the ending `/`.
 
 4. Now simply make edits, and refresh the Wintersmith page to see them
-  rendered! Easy eh? :)  
+  rendered! Easy eh? :)
+
+
+
+## Additional Resources
+
+- [Git - the simple guide][5]
 
 
 
@@ -240,4 +247,5 @@ Wintersmith can be used to preview your project as you write guides.
 [2]: https://github.com/jnordberg/wintersmith
 [3]: https://github.com/koding/docs/issues/new
 [4]: https://github.com/koding/docs/wiki
+[5]: http://rogerdudler.github.io/git-guide/
 

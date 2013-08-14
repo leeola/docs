@@ -1,18 +1,20 @@
 ---
-title: Installing Wordpress
+title: Installing WordPress
 author: leeolayvar
+contributors: [stefancosma, dylanbarlett]
 template: guide.jade
 sidebar: {
   'Video': '#video',
   'What you will need': '#what-you-will-need',
   'Steps for Installation': '#steps-for-installation',
   'Confirming your Installation': '#confirming-your-installation',
+  'Update WordPress and Plugins': '#update-wordpress-and-plugins',
   'Additional resources': '#additional-resources'
 }
 ---
 
 
-In this tutorial, we will we will go over the basics of getting wordpress
+In this tutorial, we will we will go over the basics of getting WordPress
 installed on Koding. Note that this is the same as on Ubuntu/etc, but
 some users requested this :)
 
@@ -25,7 +27,10 @@ remove it fully or understand that conflicts may occur. Thanks :)
 
 ## Video
 
-***(Video Coming Soon)***
+The following is an instructional video which approximately
+mirrors the steps below.
+
+<iframe width="680" height="450" src="//www.youtube.com/embed/gJurcN1Vgws" frameborder="0" allowfullscreen></iframe>
 
 
 
@@ -40,7 +45,7 @@ You will need to know a few things for this tutorial:
 
 You will also need to have MySQL previously installed. If you need to
 install MySQL please check out
-[[this tutorial|MySQL phpMyAdmin Installation]].
+[this tutorial](/docs/guides/installing-mysql-phpmyadmin/).
 
 
 
@@ -49,7 +54,7 @@ install MySQL please check out
 In this tutorial we are going to start from a fresh installation, and
 install it into the root folder.
 
-1. We'll start by downloading and untaring Wordpress into ~/wordpress,
+1. We'll start by downloading and untaring WordPress into ~/wordpress,
   with the following command:
   `curl wordpress.org/latest.tar.gz | tar xz`
 
@@ -57,12 +62,8 @@ install it into the root folder.
   with the following command:
   `mv Web Web.bkp && mv wordpress Web`
 
-3. Next, we need to copy the sample Wordpress config, so that we can run
-  the config setup later. Enter the following command:
-  `cp Web/wp-config-sample.php Web/wp-config.php`
-
 3. Next, we're going to set the `chmod` of the directory so that Wordpress
-  can write it's only configuration file. To do that, run:
+  can write its only configuration file. To do that, run:
   
   `chmod 777 Web`
 
@@ -85,13 +86,11 @@ install it into the root folder.
   database you would like Wordpress to use, same for `<wpuser>` and `<wppass>`.
   The commands are:
   
-  `CREATE DATABASE <dbname>;`
+  1. `CREATE DATABASE <dbname>;`
   
-  ```
-  GRANT ALL PRIVILEGES ON <dbname>.* TO "<wpuser>"@"localhost" IDENTIFIED BY "<dbpass>";
-  ```
+  2. `GRANT ALL PRIVILEGES ON <dbname>.* TO "<wpuser>"@"localhost" IDENTIFIED BY "<dbpass>";`
   
-  `FLUSH PRIVILEGES;`
+  3. `FLUSH PRIVILEGES;`
   
   An example of what this might look like if i created the database
   `wordpress` with the username `wpusername` and the password `wpuserpass`
@@ -102,37 +101,38 @@ install it into the root folder.
   Welcome to the MySQL monitor.  Commands end with ; or \g.
   Your MySQL connection id is 48
   Server version: 5.5.31-0ubuntu0.13.04.1 (Ubuntu)
-   
+  
   Copyright (c) 2000, 2013, Oracle and/or its affiliates. All rights reserved.
-   
+  
   Oracle is a registered trademark of Oracle Corporation and/or its
   affiliates. Other names may be trademarks of their respective
   owners.
-   
+  
   Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
-   
+  
   mysql> CREATE DATABASE wordpress;
   Query OK, 1 row affected (0.01 sec)
-   
+  
   mysql> GRANT ALL PRIVILEGES ON wordpress.* TO "wpusername"@"localhost" IDENTIFIED BY "wpuserpass";
   Query OK, 0 rows affected (0.00 sec)
-   
+  
   mysql> FLUSH PRIVILEGES;
   Query OK, 0 rows affected (0.00 sec)
-   
+  
   mysql>  
   ```
   
-6. We're almost done! Now we can navigate to our wordpress config setup.
-  To do this, navigate to
-  `http://<username>.kd.io/wp-admin/setup-config.php?step=1`.
-  where `<username>` is your username.
+6. We're almost done! Now we can navigate to our WordPress config setup.
+  To do this, navigate to our VM Connection url *(eg: http://username.kd.io,
+  http://vm-1.username.kd.io, etc)*. Next, press the **"Create a
+  Configuration File"** button, then the **"Lets Go"** button and
+  you will be presented with your configuration options.
   
   Enter in the database, wpuser, and wppass that we created above and press
   submit. You can leave the database host as `localhost` and the table prefix
   as `wp_`. An example of this filled out with the information from my above
   example is below.
-  [[setup-config.png]]
+  ![Setup Config](setupconfig.png)
   
   #### Possible Gotcha: Sorry, but I can’t write the wp-config.php file.
   
@@ -150,21 +150,25 @@ install it into the root folder.
 7. All right sparky! If you have successfully received the message starting
   with *"All right sparky!"* then you're good to go! Your WordPress
   is ready to be installed via the automatic configuration. Press **Run
-  the install** and proceed with the normal Wordpress installation.
+  the install** and proceed with the normal WordPress installation.
   
 
 
 ## Confirming your Installation
 
-After Step 07, you can confirm your working wordpress by simple visiting
+After Step 07, you can confirm your working WordPress by simple visiting
 your connection url *(eg: `http://username.kd.io`)*. You should be
 redirected to `/wp-admin/install.php` and can continue with the setup.
 
 
+## Update WordPress and plugins
+
+If you need to update WordPress and its plugins or themes you can use `localhost` as the **Hostname**, `your Koding username` as **FTP Username**,
+`your Koding password` as **FTP Password** and you can leave `FTP` as **Connection Type**
 
 ## Additional Resources
 
 - [WordPress.org](http://wordpress.org/)
-- [Wordpress Download](http://wordpress.org/download/)
+- [WordPress Download](http://wordpress.org/download/)
 
 
