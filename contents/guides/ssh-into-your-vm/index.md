@@ -31,6 +31,7 @@ remove it fully or understand that conflicts may occur. Thanks :)
 
 
 
+
 ## Video
 
 The following is an instructional video which approximately
@@ -38,6 +39,7 @@ mirrors the steps below. It covers both App, and Manual,
 installations.
 
 <iframe width="680" height="450" src="//www.youtube.com/embed/9tsmL61HgXU" frameborder="0" allowfullscreen></iframe>
+
 
 
 
@@ -53,13 +55,7 @@ in `~/.ssh/id_rsa.pub`)*. If you need to generate one, please
 [refer to the Github tutorial on this](https://help.github.com/articles/generating-ssh-keys).
 You will also need your Username, and your VM Number.
 
-To find your VM number, open your terminal for the VM you wish to ssh into,
-and look for the *username@vm-0:~$*, where *vm-0*, *vm-1*,
-*vm-2*, etc, is your vm number.
-
-**Feedback**: If you feel Generating an SSH Key would be very helpful on this
-tutorial, feel free to
-[let me know](https://github.com/leeolayvar/koding-unofficial/issues/new) :)
+To find your VM number, review the [Find your VM Number][0] guide.
 
 
 
@@ -119,6 +115,10 @@ tutorial, feel free to
   This "error" can be ignored. I'm not sure what exactly causes it, but
   everyone experiences it and it does not cause any problems.
   [@kiwigeraint](https://koding.com/kiwigeraint) says to simply ignore it. :)
+
+
+
+
 
 ## Tutorial Steps for PuTTY on Windows
 
@@ -229,9 +229,12 @@ Account Settings -> SSH Keys takes care of the authorization for you.
 
 
 
-
-
 ## Additional Resources
 
 - [Agent Failure Information](https://help.github.com/articles/error-agent-admitted-failure-to-sign)
+
+
+
+[0]: /docs/guides/find-your-vm-number/
+
 
