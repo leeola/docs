@@ -2,6 +2,11 @@
 title: App Submission
 author: leeolayvar
 template: guide.jade
+sidebar: {
+  'Publication Process': '#publication-process',
+  'Becoming an App Publisher': '#becoming-an-app-publisher',
+  'Publishing & Review': '#publishing-&-review'
+}
 ---
 
 
