@@ -32,7 +32,7 @@ simply trying to help in a place we think we can.
 - [How do I install Wordpress?](guides/installing-wordpress/)
 - [General .htaccess Issues](guides/general-htaccess/)
 - [How do I find my VM Number?](guides/find-your-vm-number/)
-- [How do i link my Github?](guides/linking-github/)
+- [How do I link my Github?](guides/linking-github/)
 
 
 
