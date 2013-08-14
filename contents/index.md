@@ -38,7 +38,6 @@ simply trying to help in a place we think we can.
 
 ## Feature Exploration
 
-- [Domain Management](guides/domain-management/): Managing which domain points to which VM.
 - [Apps Overview](guides/apps-overview/): The basics of Koding Apps usage
 - [Domain Management](guides/domain-management/): Managing which domain points to which VM.
 - [Groups Overview](guides/groups-overview/): What is a Koding Group?
