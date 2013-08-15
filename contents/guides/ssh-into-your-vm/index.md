@@ -21,10 +21,6 @@ sure to
 [submit an issue][1]
 and we can help make this a rock solid tutorial for all skill levels :)
 
-Note that we will only be covering Unix based OSs. If someone wants to
-give me information on how this can be done on Windows, i'll be happy
-to add a windows section!
-
 **Reminder**: As with all of these tutorials, they assume that there are no
 conflicts. If you have previously attempted to install this software please
 remove it fully or understand that conflicts may occur. Thanks :)
@@ -47,15 +43,21 @@ remove it fully or understand that conflicts may occur. Thanks :)
 
 ## What you will need
 
-In this tutorial, i am going to use the terminology of "Home" and "Koding"
+In this tutorial, I am going to use the terminology of "Home" and "Koding"
 machines. Home being whatever the machine you are using to connect to
 Koding with. Koding being the machine that is receiving the connection.
 `Home -> Koding`.
 
-On the home machine, you will need a public rsa key *(usually found
-in `~/.ssh/id_rsa.pub`)*. If you need to generate one, please
-[refer to the Github tutorial on this](https://help.github.com/articles/generating-ssh-keys).
-You will also need your Username, and your VM Number.
+On the Home machine, you will need your SSH public/private keys. On Linux (or
+Cygwin on Windows), your SSH keys are usually found at `~/.ssh/id_rsa` and
+`~/.ssh/id_rsa.pub`. On Windows (without Cygwin), you may need to generate new
+keys with
+[PuTTYGen](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html). If
+you need to generate a new key pair, please refer to a
+[Linux](https://help.github.com/articles/generating-ssh-keys) or
+[Windows](http://katsande.com/using-puttygen-to-generate-ssh-private-public-keys)
+tutorial, as appropriate.  You will also need your Koding Username, and your VM
+Number.
 
 To find your VM number, review the [Find your VM Number][0] guide.
 
@@ -124,27 +126,22 @@ To find your VM number, review the [Find your VM Number][0] guide.
 
 ## Tutorial Steps for PuTTY on Windows
 
-For this connection method, you will need the [PuTTY SSH client suite][10].
-Including the `putty.exe`, `plink.exe`, and `pageant.exe`.
+For this connection method, you will need the [PuTTY SSH client suite][10]:
+`putty.exe`, `plink.exe`, and `pageant.exe`.
 
 **Note:** This PuTTY guide has only recently been published. If you are
 familiar with PuTTY and you think something should be changed, please
 [let me know][1]!
 
-1. Fire up [PuTTYgen][11],
-  the SSH key generator for the PuTTY suite. If you already have a private key,
-  load it up; otherwise generate a new key pair. You'll end up with some
-  gibberish, a fingerprint, and some settings.
-  
-  ![PuTTYgen](puttygen.png)
-  
-2. Copy the gibberish (your public key) to the SSH Keys section of [your
-  account](https://koding.com/Account), as in
-  [Step #2 above](#tutorial-steps-for-openssh-on-linux).
-  Save your private key to someplace accessible; you'll need it later.
+1. Copy the text contents of your PuTTY public key. If you are not sure what or
+  where it is, please refer to [What you will need](#what-you-will-need).
 
-3. Start up [PuTTY][11]
-  and set the _Host Name (or IP address)_ to the same VM name as above:
+2. As in Step #2 of the [Linux guide](#tutorial-steps-for-openssh-on-linux)
+  above, paste the entirety of your public key into the _SSH Keys_ section of
+  your Koding account settings.
+
+3. Start up `putty.exe` and set the _Host Name (or IP address)_ to the same VM
+  hostname as above:
   
   `vm-Number.<username>.koding.kd.io`
   
@@ -178,9 +175,9 @@ familiar with PuTTY and you think something should be changed, please
   ![Pageant Taskbar](pageanttaskbar.png)
   
   Right click the Pageant icon in the taskbar, and select *"View Keys"*. From
-  there, click the *"Add Key"* button. Navigate to the **private** key you
-  saved from Step 2 and click *"Open"*. You should now have a key listed
-  in your Pageant Key List. An example image is below.
+  there, click the *"Add Key"* button. Navigate to your PuTTYGen **private**
+  key and click *"Open"*. You should now have a key listed in your Pageant Key
+  List. An example image is below.
   
   ![Pageant key List](pageantkeylist.png)
   
@@ -192,7 +189,7 @@ familiar with PuTTY and you think something should be changed, please
   
   Next, under the _Connection_ menu, open up the _SSH_ menu and select _Auth_.
   Enable the _Allow agent forwarding_ checkbox. Under _Private key file for
-  authentication_, browse to the private key you saved in Step 2.
+  authentication_, browse to your PuTTYGen private key.
   
   ![PuTTY SSH auth](puttyauth.png)
   
