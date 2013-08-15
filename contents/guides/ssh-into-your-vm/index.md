@@ -21,10 +21,6 @@ sure to
 [submit an issue][1]
 and we can help make this a rock solid tutorial for all skill levels :)
 
-Note that we will only be covering Unix based OSs. If someone wants to
-give me information on how this can be done on Windows, i'll be happy
-to add a windows section!
-
 **Reminder**: As with all of these tutorials, they assume that there are no
 conflicts. If you have previously attempted to install this software please
 remove it fully or understand that conflicts may occur. Thanks :)
