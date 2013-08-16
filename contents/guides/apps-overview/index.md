@@ -78,7 +78,7 @@ contribute :)
 ## App Submission
 
 So, you made an awesome app and you want to submit it right? You can read up 
-on the process for basic app submission [here](app-submission).
+on the process for basic app submission [here](/docs/guides/app-submission).
 
 
 
