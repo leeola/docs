@@ -77,10 +77,8 @@ contribute :)
 
 ## App Submission
 
-So, you made an awesome app and you want to submit it right? There
-is a guide written for this, but it is currently awaiting review from
-the Koding Devs to make sure the process is correct. Once the review
-is complete it'll be posted, so hang tight!
+So, you made an awesome app and you want to submit it right? You can read up 
+on the process for basic app submission [here](http://koding.github.io/docs/guides/app-submission/).
 
 
 
