@@ -6,7 +6,6 @@ sidebar: {
   'Mission Statement': '#mission-statement',
   'What you will need': '#what-you-will-need',
   'Editing': '#editing',
-  'Forking & Pull Requesting': '#forking,-cloning,-committing,-and-pull-requesting',
   'Wintersmith Preview': '#wintersmith-installation-and-preview',
 }
 ---
