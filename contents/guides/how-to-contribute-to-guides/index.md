@@ -6,7 +6,6 @@ sidebar: {
   'Mission Statement': '#mission-statement',
   'What you will need': '#what-you-will-need',
   'Editing': '#editing',
-  'Forking & Pull Requesting': '#forking,-cloning,-committing,-and-pull-requesting',
   'Wintersmith Preview': '#wintersmith-installation-and-preview',
 }
 ---
@@ -124,89 +123,6 @@ Doing things consistently and correctly are the only ways to get your
 content submitted to the official site, so *please*, if you are unsure of
 something [ask questions][3]!
 
-
-
-## Forking, Cloning, Committing, and Pull Requesting
-
-This is a rather elementary section of the tutorial. If you know Git,
-please ignore this. If you only basically understand Git, this tutorial
-may help you. The [Additional Resources](#additional-resources) section
-also contains some Git tutorials and guides that may be of help.
-
-This general process will be pretty easy, but a few things are required on
-your own part. You must have an SSH Public Key for your VM added to GitHub. If
-you do not and you need help doing this, please see
-[this tutorial](https://help.github.com/articles/generating-ssh-keys#platform-linux)
-on generating your SSH Key, and adding it to Github. * **!Note!** Ignore the xclip information, just use Ace Editor to copy
-your SSH Key.*
-
-1. Fork the [Koding/docs][0] repo by going to
-  [this url](https://github.com/koding/docs/fork) and select the little
-  square with your name. This will fork the Koding repo.
-  ![Fork Icon](forkicon.png)
-  
-2. Next, we open up our Terminal and clone our forked repository! To do this,
-  type the following command, replace `<githubuser>` with your Github username.
-  
-  ```
-  git clone git@github.com:<githubuser>/docs.git
-  ```
-  
-3. Now you should have a directory called `docs` wherever you ran that
-  command. This is your local cloned repository, of your forked repo.
-  cd into the directory with `cd docs`  
-  
-4. Create a new branch, titled with a short few-word description of your
-  guide title, with `git checkout -b my-guide-name`.
-  
-5. Now to do the actual writing! If you need help figuring out what to edit,
-  see the [above step](#editing) on that subject.
-  
-6. Lets pretend you are done editing, you have previewed your Guide with
-  Wintersmith and your guide is great! Now you want to commit your code
-  to your local repo with `git add .` and `git commit`. After typing
-  git commit, you will be presented with a terminal text editor, likely
-  Nano or Vim. Type in a commit message, and save the message.
-  
-7. Now, you'll push your custom branch to your forked repo. This can be
-  done with `git push -u origin my-guide-name`, where `my-guide-name` is the
-  name of the branch that you checked out earlier. If you have an SSH password
-  *(and you should)*, you'll have to enter it after this command. Enter it
-  and proceed to the next step.
-  
-8. We're done with the Terminal stuff! Now visit your fork on
-  Github, located at `https://github.com/<githubuser>/docs`, and click
-  on the branch icon. Then select your branch from the dropdown list.
-  After that, click the little green button next to your selected branch.
-  
-  ![Select Branch](selectbranch.png)
-  
-  This will compare your branch, to the master Koding/docs branch.
-  
-9. Last Step! From here, you simply click on *"create a pull request for
-  this comparison"*.
-  
-  ![Create Pull Request](createpullrequest.png)
-  
-  Enter in a Title and comment, both describing what your branch is about
-  and the instructions you provide. Then click *"Send pull request"*!
-  
-  You're done! Now there is a pull request, on the official repo, that
-  will be reviewed by a core Koding/docs contributor. They may reply with
-  additional notes that you should add to your branch if you formatted
-  something incorrectly, or ask you to remove some modifications from your
-  pull request, etc. It's a place for discussion, about the code you are
-  adding to the official repo, so it's quite important. Expect critiques!
-  
-  Once everything looks good, and assuming your edits match the Mission
-  Statement, they will be merged in, and be on the [official site][0] within
-  a couple days!
-  
-  **Note:** Explaining Git to non-Git people can be a bit confusing, so
-  *please* feel free to [comment][3] on this guide if you don't understand
-  something. This specific section will likely need much iteration! Thanks!
-
-  
 
 ## Wintersmith Installation and Preview
 
