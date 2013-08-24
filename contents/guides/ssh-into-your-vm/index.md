@@ -67,7 +67,7 @@ To find your VM number, review the [Find your VM Number][0] guide.
 ## Tutorial Steps for OpenSSH on Linux
 
 1. First, copy your Public Key, usually found in `~/.ssh/id_rsa.pub`, and copy
-  it in it's entirety! It will look something like this:
+  it in its entirety! It will look something like this:
   
   ```
   ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCyhKankDE4DRM86JqZ3JPdWDeqg+TbzlqlTLf
@@ -80,7 +80,7 @@ To find your VM number, review the [Find your VM Number][0] guide.
   
 2. Next, paste this entire Public Key into your SSH Keys section of your
   Account settings. This can be found by going to
-  [koding/Account](https://koding.com/Account) and clicking SSH Keys
+  [Koding/Account](https://koding.com/Account) and clicking SSH Keys
   under the DEVELOP. Click the Plus button on the right side of the page,
   and paste your Public Key into this. Below is a screenshot of this area
   for clarification.
@@ -103,7 +103,7 @@ To find your VM number, review the [Find your VM Number][0] guide.
   here is my connection command: `ssh vm-0.leeolayvar.koding.kd.io`.
   
   You will have to enter your local SSH password, if you chose one when you
-  created your key. After that, presented with `username@vm-X:~$`, singaling
+  created your key. After that, presented with `username@vm-X:~$`, signaling
   that you have connected successfully.
   
   This step has quite a few Gotchas so please review them below.
@@ -260,7 +260,7 @@ on the subject.
 
 Until Always-On VMs are available, Koding will shut down your VM after
 approximately ~20 minutes. To ensure that you are able to connect properly
-make sure you have your Broser open **and logged in** to Koding.com.
+make sure you have your browser open **and logged in** to Koding.com.
 
 If you experience the following error:
 
@@ -269,7 +269,7 @@ ssh_exchange_identification: Connection closed by remote host
 ```
 
 Your VM being "off" is the most likely culprit. You can ensure it is on by
-visiting it's direct url, such as http://vm-0.username.kd.io, and ensuring
+visiting its direct url, such as http://vm-0.username.kd.io, and ensuring
 you are presented with your Hello World Apache response. If you receive
 an error indicating that VM does not exist or is not on, you should have a
 good idea why SSH is failing to connect.
