@@ -6,7 +6,7 @@ template: guide.jade
 sidebar: {
   'Video': '#video',
   'What you will need': '#what-you-will-need',
-  'Tutorial Steps for OpenSSH on Linux': '#tutorial-steps-for-openssh-on-linux',
+  'Tutorial Steps for OpenSSH *nix (Linux/OS X/BSD) or Cygwin': '#tutorial-steps-for-openssh-on-*nix-(linux/os-x/bsd)-or-cygwin',
   'Tutorial Steps for PuTTY on Windows': '#tutorial-steps-for-putty-on-windows',
   'Possible Gotchas': '#possible-gotchas',
   'Confirming your Installation': '#confirming-your-installation',
