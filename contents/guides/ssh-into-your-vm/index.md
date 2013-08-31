@@ -30,7 +30,7 @@ remove it fully or understand that conflicts may occur. Thanks :)
 
 ## Video
 
-### Linux Video
+### *nix (Linux/OS X/BSD) Video
 
 <iframe width="680" height="450" src="//www.youtube.com/embed/9tsmL61HgXU" frameborder="0" allowfullscreen></iframe>
 
@@ -64,7 +64,7 @@ To find your VM number, review the [Find your VM Number][0] guide.
 
 
 
-## Tutorial Steps for OpenSSH on Linux
+## Tutorial Steps for OpenSSH on *nix (Linux/OS X/BSD) or Cygwin
 
 1. First, copy your Public Key, usually found in `~/.ssh/id_rsa.pub`, and copy
   it in its entirety! It will look something like this:
