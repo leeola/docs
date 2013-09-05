@@ -102,7 +102,7 @@ class HelloWorld extends JView
     """
 
 do ->
-  appView.addSubClass new HelloWorld()
+  appView.addSubView new HelloWorld()
 ```
 
 Lets break down the above source. Remember, we are not trying to explain
