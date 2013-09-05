@@ -44,3 +44,9 @@ simply trying to help in a place we think we can.
 - [Publishing Koding Apps](guides/app-submission/): How to submit Koding Apps.
 - [Reinitializing your VM](guides/reinitializing-your-vm/): The magic reset everything button!
 
+
+
+## Guide Series
+ - Creating Koding Applications
+  0. [App Foundation](/docs/series/creatingapps/01-foundation/)
+
