@@ -5,6 +5,8 @@ template: guide.jade
 sidebar: {
   'Video': '#video',
   'What are Koding Apps?': '#what-are-koding-apps?',
+  'Creating a Hello World': '#creating-a-hello-world-application',
+  'Closing': '#closing'
 }
 ---
 
@@ -20,7 +22,7 @@ If you're looking for a more general example check out the
 
 ## Video
 
-*(Coming soon!)*
+<iframe width="680" height="450" src="//www.youtube.com/embed/EketTUKZi2Y" frameborder="0" allowfullscreen></iframe>
 
 ## What are Koding apps
 
