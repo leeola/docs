@@ -114,12 +114,6 @@ To find your VM number, review the [Find your VM Number][0] guide.
   [Possible Gotchas: ssh_exchange_identification](#ssh_exchange_identification-/-keep-koding-open-in-browser)
   below.
   
-  ### Error: Could not chdir
-  
-  This "error" can be ignored. I'm not sure what exactly causes it, but
-  everyone experiences it and it does not cause any problems.
-  [@kiwigeraint](https://koding.com/kiwigeraint) says to simply ignore it. :)
-
 
 
 
