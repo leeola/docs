@@ -101,7 +101,7 @@ section below.
   *vm-1*, etc.
   
   ```
-  Host: <username>.kd.io
+  Host: ftp.koding.com
   Encryption: Use plain FTP
   Login Type: Normal
   User: <username>@<vm-Number>.<username>.koding.kd.io
