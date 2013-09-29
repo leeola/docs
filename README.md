@@ -7,7 +7,13 @@
 - [Wiki](https://github.com/koding/docs/wiki):
   General Community Wiki
 
+## This is Not Koding Support
 
+This repository and issue tracker are for *documentation*. If you are having
+an issue with Koding and need to report a bug, please submit a post to the
+Koding Activity Feed with the tag the post with `Koding Bugs`.
+
+Thanks!
 
 ## Description
 
