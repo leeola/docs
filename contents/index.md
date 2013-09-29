@@ -33,6 +33,7 @@ simply trying to help in a place we think we can.
 - [General .htaccess Issues](guides/general-htaccess/)
 - [How do I find my VM Number?](guides/find-your-vm-number/)
 - [How do I link my Github?](guides/linking-github/)
+- [How do i use Tmux?](guides/using-tmux/)
 
 
 
