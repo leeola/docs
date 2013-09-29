@@ -34,12 +34,12 @@ mirrors the steps below.
 
 ### RewriteEngine & mod_rewrite
 
-For the sake of discussion, lets say i have two Koding domains
+For the sake of discussion, lets say I have two Koding domains
 `http://username.kd.io` and `http://my.name.is.username.kd.io`. How would
-i forward the first to the second?
+I forward the first to the second?
 
 Htaccess makes this pretty simple. Create a .htaccess file in your Web
-directory if you don't already have one
+directory, if you don't already have one,
 `touch ~/Web/.htaccess && chmod 644 ~/Web/.htaccess` and add the
 following RewriteRule:
 
