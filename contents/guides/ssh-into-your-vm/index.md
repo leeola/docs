@@ -113,9 +113,23 @@ To find your VM number, review the [Find your VM Number][0] guide.
   and
   [Possible Gotchas: ssh_exchange_identification](#ssh_exchange_identification-/-keep-koding-open-in-browser)
   below.
-  
 
 
+  ### Alternate id_rsa
+
+  If you're using an alternately named `id_rsa` file, you can modify your
+  config to support this with the following example.
+
+  ```
+  Host *.kd.io
+    User <username>
+    IdentityFile ~/.ssh/alternate
+    ProxyCommand -i ~/.ssh/alternate ssh %r@ssh.koding.com nc %h %p
+  ```
+
+  Note the `IdentityFile ~/.ssh/alternate` and `-i ~/.ssh/alternate`,
+  they tell SSH the location of your public key, and are required. Replace
+  the file location with the location of your alternate key.
 
 
 ## Tutorial Steps for PuTTY on Windows
