@@ -15,7 +15,7 @@ It's easy to deal with, but not an obvious workaround.
 ## Odd Behavior
 
 When you first try and install and run tmux on Koding, it seems to load
-load properly, but many commands just don't seem to work. Some, like `C-b c`
+properly, but many commands just don't seem to work. Some, like `C-b c`
 *(used to create a new window)* even force close the Terminal. What is going
 on?
 
