@@ -17,6 +17,10 @@ your http://username.kd.io domain, as well as how to create additional
 subdomains.
 
 
+**NOTICE**: This guide is out dated due to the recent overhaul to
+Environment Management, and i'll be updating this guide soon :) -- lee
+
+
 ## Video
 
 The following video link is a quick explanation of Domain Management.
