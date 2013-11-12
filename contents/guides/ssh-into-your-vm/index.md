@@ -124,7 +124,7 @@ To find your VM number, review the [Find your VM Number][0] guide.
   Host *.kd.io
     User <username>
     IdentityFile ~/.ssh/alternate
-    ProxyCommand -i ~/.ssh/alternate ssh %r@ssh.koding.com nc %h %p
+    ProxyCommand ssh -i ~/.ssh/alternate %r@ssh.koding.com nc %h %p
   ```
 
   Note the `IdentityFile ~/.ssh/alternate` and `-i ~/.ssh/alternate`,
