@@ -27,7 +27,6 @@ simply trying to help in a place we think we can.
 
 - [What is Koding?](guides/koding-overview/)
 - [How do I setup FTP?](guides/setting-up-ftp/)
-- [How do I install MySQL and phpMyAdmin?](guides/installing-mysql-phpmyadmin/)
 - [How do I SSH into my VM?](guides/ssh-into-your-vm/)
 - [How do I install Wordpress?](guides/installing-wordpress/)
 - [General .htaccess Issues](guides/general-htaccess/)
@@ -41,8 +40,6 @@ simply trying to help in a place we think we can.
 ## Feature Exploration
 
 - [Apps Overview](guides/apps-overview/): The basics of Koding Apps usage
-- [Domain Management](guides/domain-management/): Managing which domain points to which VM.
-- [Groups Overview](guides/groups-overview/): What is a Koding Group?
 - [Publishing Koding Apps](guides/app-submission/): How to submit Koding Apps.
 - [Reinitializing your VM](guides/reinitializing-your-vm/): The magic reset everything button!
 
